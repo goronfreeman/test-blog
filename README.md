@@ -11,3 +11,4 @@
 * [Capybara](https://github.com/teamcapybara/capybara)
 * [Shoulda Matchers](https://github.com/thoughtbot/shoulda-matchers)
 * [FactoryBot](https://github.com/thoughtbot/factory_bot)
+* http://www.betterspecs.org/ - Test writing guidelines
