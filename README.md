@@ -1,24 +1,7 @@
-# README
+# Setup Instructions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Install Ruby 2.6.3: `rvm install 2.6`
+2. Install Postgresql: `brew install postgresql`
+3. Start Postgres: `brew services start postgresql`
+4. Create DB: `rails db:create`
+5. Run migrations: `rails db:migrate`
